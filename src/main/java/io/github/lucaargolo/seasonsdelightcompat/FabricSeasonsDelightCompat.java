@@ -7,11 +7,6 @@ import net.fabricmc.loader.api.Version;
 
 public class FabricSeasonsDelightCompat implements ModInitializer {
 
-    //TODO: Make files for mushroom colonys (100% every season) (it'll just impact with the bonemeal config on)
-    //TODO: Make rich soil not spam particles when it cant grow crops (priority: low)
-    //TODO: Investigate if any other crops need mixing (especially from the addons)
-    //TODO: Corn from cultural delights? (Optional mixin?)
-
     private static final String MOD_ID = "seasonsdelightcompat";
     private static final String DEP_ID = "farmersdelight";
 

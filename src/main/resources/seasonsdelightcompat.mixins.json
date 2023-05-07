@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.lucaargolo.seasonsdelightcompat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BuddingBushBlockMixin",
+    "BuddingTomatoBlockMixin",
+    "MushroomColonyBlockMixin",
+    "RiceCropBlockMixin",
+    "TomatoVineBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
